@@ -20,7 +20,7 @@ const clearMarkers = () => {
 
 const onSuccess = (data) => {
   clearMarkers();
-  let preparedAds = data.slice(0, 10);
+  const preparedAds = data.slice(0, 10);
   preparedAds.forEach((ad) => createMarker(ad));
 };
 

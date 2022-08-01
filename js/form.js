@@ -1,5 +1,5 @@
-import {sendData} from "./load.js";
-import {escPressed} from "./util.js";
+import {sendData} from './load.js';
+import {escPressed} from './util.js';
 const form = document.querySelector('.ad-form');
 const submitButton = form.querySelector('.ad-form__submit');
 
